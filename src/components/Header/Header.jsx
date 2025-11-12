@@ -10,7 +10,6 @@ export default function Header() {
     <header className="header">
       <div className="logo-container">
         <img src={logo} alt="Tour Eiffel" className="logo" />
-        <h1 className="site-title">Paris</h1>
       </div>
 
       <nav className={`nav ${open ? "open" : ""}`}>
