@@ -12,7 +12,7 @@ L.Icon.Default.mergeOptions({
   iconUrl:
     "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
   shadowUrl:
-    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png"
+    "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
 });
 
 export default function MapParis() {
@@ -27,12 +27,15 @@ export default function MapParis() {
           <Marker key={index} position={[place.lat, place.lng]}>
             <Popup>
               <div className="popup">
+                <img src={place.img} alt={place.alt} className="popup-thumb" />
                 <strong>{place.title}</strong>
-                <p>{place.address}</p>
+                <p className="popup-address">{place.address}</p>
+                <p className="popup-desc">{place.desc}</p>
                 <a
                   href={place.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="popup-link"
                 >
                   Voir le site →
                 </a>
