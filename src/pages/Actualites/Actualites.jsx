@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./actualites.css";
+import { actualitesData } from "./actuData.js";
 
 const videos = [
     "/videos/actu1.mp4",
@@ -83,6 +84,26 @@ export default function Actualites() {
                             ))}
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="actualites-2">
+                <h2 className="title-actu">Actualités à Paris</h2>
+                <p className="description-actu-2">Les dernières nouvelles de la capitale...</p>
+
+                <div className="news-grid">
+                    {actualitesData.map((item, index) => (
+                        <div key={index} className="news-card-2">
+                            <img src={item.image} alt={item.title} className="news-image" />
+                            <div className="news-content">
+                                <h3>{item.title}</h3>
+                                <p>{item.description}</p>
+                                <a href={item.link} target="_blank" rel="noopener noreferrer" className="news-link">
+                                    Lire la suite →
+                                </a>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
 
