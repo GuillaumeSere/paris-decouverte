@@ -98,8 +98,9 @@
 .news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 25px;
+  gap: 45px;
   max-width: 1200px;
+  padding-bottom: 1.5rem;
   margin: 0 auto;
 }
 
@@ -123,6 +124,7 @@
     max-width: 400px;
     transition: transform 0.3s ease;
     text-decoration: none;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .news-content h3{
