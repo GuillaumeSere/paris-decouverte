@@ -22,7 +22,7 @@ export default function Accueil() {
                 </div>
             </section>
 
-            <section>
+            <section className="map">
                 <h2>Carte des lieux à visiter</h2>
                 <MapParis />
             </section>
