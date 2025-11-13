@@ -6,6 +6,7 @@ import Actualites from "./pages/Actualites/Actualites";
 import Sorties from "./pages/Sorties/Sorties";
 import Visite from "./pages/visite/Visite";
 import "./index.css";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/sorties" element={<Sorties />} />
           <Route path="/visite" element={<Visite />} />
         </Routes>
+        <Footer />
     </Router>
   );
 }
