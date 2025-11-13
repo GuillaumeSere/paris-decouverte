@@ -88,8 +88,7 @@ export default function Actualites() {
             </div>
 
             <div className="actualites-2">
-                <h2 className="title-actu">Actualités à Paris</h2>
-                <p className="description-actu-2">Les dernières nouvelles de la capitale...</p>
+                <h2 className="title-actu">Les dernières nouvelles de la capitale...</h2>
 
                 <div className="news-grid">
                     {actualitesData.map((item, index) => (
