@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://paris-decouverte.vercel.app/</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Page Actualités -->
+  <url>
+    <loc>https://paris-decouverte.vercel.app/actualites</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Page Sorties -->
+  <url>
+    <loc>https://paris-decouverte.vercel.app/sorties</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Page Visites -->
+  <url>
+    <loc>https://paris-decouverte.vercel.app/visite</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+
+</urlset>
