@@ -1,42 +1,42 @@
 /* --- Section carte --- */
 .map-section {
-  width: 100%;
-  text-align: center;
-  z-index: 5;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
 }
 
 .map-title {
-  font-size: 1rem;
-  padding-bottom: 1.5rem;
-  padding-top: 4rem;
-  margin: 0;
-  color: #ffffff;
-  background: #000000;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 4rem;
+    margin: 0;
+    color: #ffffff;
+    background: #000000;
 }
 
 .map-container {
-  width: 100%;
-  max-width: 100%;
-  height: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .map-container iframe {
-  width: 100%;
-  height: 800px;
-  border: none;
+    width: 100%;
+    height: 800px;
+    border: none;
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
 
     .map-container iframe {
-    height: 350px;
-  }
+        height: 100vh;
+    }
 
-  .map-title {
-    font-size: 1rem;
-  }
+    .map-title {
+        font-size: 1rem;
+    }
 }

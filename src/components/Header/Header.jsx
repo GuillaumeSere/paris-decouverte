@@ -19,11 +19,15 @@ export default function Header() {
         <Link to="/visite" onClick={() => setOpen(false)}>Visite</Link>
       </nav>
 
-      <button className="burger" onClick={() => setOpen(!open)}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+      <button
+        className={`burger ${open ? "open" : ""}`}
+        onClick={() => setOpen(!open)}
+      >
+        <span className="bar top-bar"></span>
+        <span className="bar middle-bar"></span>
+        <span className="bar bottom-bar"></span>
       </button>
     </header>
   );
 }
+
