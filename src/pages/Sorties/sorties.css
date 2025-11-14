@@ -109,3 +109,26 @@
 .sortie-link:hover {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .overlay {
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+
+  .news-card h3{
+    font-size: .8rem;
+  }
+
+  .news-card p{
+    font-size: .7rem;
+  }
+  
+  .description-actu{
+    font-size: .8rem;
+  }
+
+  .sortie-card p{
+    font-size: .8rem;
+  }
+}
